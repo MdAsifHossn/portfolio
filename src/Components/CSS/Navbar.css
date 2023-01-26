@@ -1,0 +1,84 @@
+.navContainer {
+  background-color: aliceblue;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 50px;
+  padding: 10px;
+}
+
+.navLogo {
+  font-size: 35px;
+  font-weight: bold;
+  color: red;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+#check,
+.navButton {
+  display: none;
+}
+
+.navItems {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navContainer > .navItems > li > a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  transition: 0.2s;
+}
+.navContainer > .navItems > li > a:hover {
+  color: red;
+  border: 2.5px solid red;
+  padding: 3px 10px;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+
+@media only screen and (max-width: 1200px) {
+  .navContainer {
+    padding-top: 4px;
+    height: 56px;
+  }
+  .navButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin-right: 30px;
+    margin-left: auto;
+  }
+  #check:checked ~ .navButton {
+    color: red;
+  }
+  .navItems {
+    padding: 0px;
+    background-color: aliceblue;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: fixed;
+    top: 54px;
+    width: 300px;
+    height: 100vh;
+    right: -100%;
+    transition: 0.3s;
+  }
+  #check:checked ~ .navItems {
+    right: 0px;
+    transition: 0.3s;
+  }
+  .navContainer > .navItems > li {
+    margin-top: 25px;
+    margin-left: 40%;
+  }
+}
+
+/* .class:focus {
+  outline: 1px solid rgb(19, 180, 159);
+} */
