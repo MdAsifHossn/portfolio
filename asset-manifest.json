@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mdasifhossn.github.io/portfolio/static/css/main.c056f419.css",
+    "main.js": "/mdasifhossn.github.io/portfolio/static/js/main.28cb8d72.js",
+    "index.html": "/mdasifhossn.github.io/portfolio/index.html",
+    "main.c056f419.css.map": "/mdasifhossn.github.io/portfolio/static/css/main.c056f419.css.map",
+    "main.28cb8d72.js.map": "/mdasifhossn.github.io/portfolio/static/js/main.28cb8d72.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c056f419.css",
+    "static/js/main.28cb8d72.js"
+  ]
+}
