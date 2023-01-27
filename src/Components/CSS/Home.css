@@ -1,0 +1,78 @@
+#home {
+  display: flex;
+  justify-content: center;
+
+  flex-wrap: wrap;
+}
+
+.homeIntroContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+  align-items: center;
+  justify-items: center;
+}
+.nameInfo {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.homeIntroContainer > .nameInfo > h1 {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+.homeIntroContainer > .nameInfo > p {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 35px;
+}
+.homeContact {
+  display: flex;
+  flex-direction: column;
+}
+.homeContact > a {
+  text-decoration: none;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+/* Card */
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.AandS {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.IandF {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.letterCard {
+  font-family: "sans-serif";
+  margin: 20px 20px;
+  width: 180px;
+  height: 200px;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 170px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 1300px) {
+  .homeIntroContainer {
+    width: 78%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .homeIntroContainer {
+    width: 60%;
+  }
+}

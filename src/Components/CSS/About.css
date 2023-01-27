@@ -1,0 +1,65 @@
+#about {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+.allContainer {
+  width: 80%;
+}
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+.allContent {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+.imageCard {
+  height: 300px;
+  width: 270px;
+  border-radius: 7px;
+}
+.imageContainer {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+.aboutContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 15px;
+}
+.allContent > .aboutContainer > h1 {
+  margin-bottom: 0px;
+}
+.allContent > .aboutContainer > p {
+  font-size: 22px;
+  text-align: justify;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.emailContainer > p {
+  font-size: 22px;
+  margin: 0px 0px 15px 0px;
+}
+
+.cv {
+  text-decoration: none;
+  padding: 10px 50px;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.workButton:hover {
+  cursor: pointer;
+}
+.resumeBtn:hover {
+  cursor: pointer;
+}
+.aboutBtnContaier {
+  margin-top: 50px;
+}

@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+#home,
+#about,
+#skills,
+#portfolio,
+#contact,
+#education {
+  padding-top: 75px;
+}

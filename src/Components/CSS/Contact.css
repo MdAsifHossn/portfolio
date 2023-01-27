@@ -1,0 +1,26 @@
+#contact {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.contactTitle {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 70px;
+}
+.contactContainer {
+  width: 80%;
+}
+.ContactType {
+  padding-left: 60px;
+}
+.contact {
+  font-size: 20px;
+  margin-left: 50px;
+}
+.fb {
+  margin-left: 50px;
+  text-decoration: none;
+  font-size: 23px;
+  font-weight: bold;
+}
