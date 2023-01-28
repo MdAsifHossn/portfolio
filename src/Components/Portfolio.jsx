@@ -5,6 +5,9 @@ const Portfolio = ({ textColor, color, BGColor }) => {
   const initialStyle = {
     color: textColor,
   };
+  const imageCardStyle = {
+    boxShadow: `${textColor + "80"} 10px 10px 15px`,
+  };
 
   return (
     <div id="portfolio" style={initialStyle}>
@@ -15,9 +18,9 @@ const Portfolio = ({ textColor, color, BGColor }) => {
         <div className="portfolioDetailContainer">
           <p style={{ color: color }}>SELECTED WORKS</p>
           <div className="portfolioCardContainer">
-            <div className="portfolioCard"></div>
-            <div className="portfolioCard"></div>
-            <div className="portfolioCard"></div>
+            <div className="portfolioCard" style={imageCardStyle}></div>
+            <div className="portfolioCard" style={imageCardStyle}></div>
+            <div className="portfolioCard" style={imageCardStyle}></div>
           </div>
         </div>
       </div>
