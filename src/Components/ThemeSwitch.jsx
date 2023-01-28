@@ -9,7 +9,7 @@ export default function ThemeSwitch({
   setColor,
 }) {
   const styleOne = {
-    border: `1px solid ${textColor}`,
+    border: `1px solid ${color}`,
   };
 
   const onThemeChange = () => {
@@ -24,8 +24,48 @@ export default function ThemeSwitch({
       <div className="colorSwitch">
         <button
           className="colorButton"
-          style={{ backgroundColor: "#ff0000" }}
-          onClick={() => onColorChange("#ff0000")}
+          style={{ backgroundColor: "#13b49f" }}
+          onClick={() => onColorChange("#13b49f")}
+        ></button>
+        <button
+          className="colorButton"
+          style={{ backgroundColor: "#00cc66" }}
+          onClick={() => onColorChange("#00cc66")}
+        ></button>
+        <button
+          className="colorButton"
+          style={{ backgroundColor: "#00cc00" }}
+          onClick={() => onColorChange("#00cc00")}
+        ></button>
+        <button
+          className="colorButton"
+          style={{ backgroundColor: "#00cc99" }}
+          onClick={() => onColorChange("#00cc99")}
+        ></button>
+        <button
+          className="colorButton"
+          style={{ backgroundColor: "#00ffff" }}
+          onClick={() => onColorChange("#00ffff")}
+        ></button>
+        <button
+          className="colorButton"
+          style={{ backgroundColor: "#9933ff" }}
+          onClick={() => onColorChange("#9933ff")}
+        ></button>
+        <button
+          className="colorButton"
+          style={{ backgroundColor: "#ff00ff" }}
+          onClick={() => onColorChange("#ff00ff")}
+        ></button>
+        <button
+          className="colorButton"
+          style={{ backgroundColor: "#ffff00" }}
+          onClick={() => onColorChange("#ffff00")}
+        ></button>
+        <button
+          className="colorButton"
+          style={{ backgroundColor: "#f54500" }}
+          onClick={() => onColorChange("#f54500")}
         ></button>
         <button
           className="colorButton"

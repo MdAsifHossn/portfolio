@@ -1,7 +1,7 @@
 import React from "react";
 import "./CSS/Portfolio.css";
 
-const Portfolio = ({ textColor, color, BGColor }) => {
+const Portfolio = ({ textColor, color }) => {
   const initialStyle = {
     color: textColor,
   };
