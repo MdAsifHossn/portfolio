@@ -12,7 +12,7 @@ import Contact from "./Components/Contact";
 function App() {
   const [textColor, setTextColor] = useState("#222222");
   const [BGColor, setBGColor] = useState("#f0f8ff");
-  const [color, setColor] = useState("#13b49f");
+  const [color, setColor] = useState("#00cc00");
 
   useEffect(() => {
     document.body.style.backgroundColor = BGColor;

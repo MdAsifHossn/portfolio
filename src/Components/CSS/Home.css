@@ -45,25 +45,26 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 40px;
 }
 .AandS {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 40px;
 }
 .IandF {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 40px;
 }
 .letterCard {
-  font-family: "sans-serif";
-  margin: 20px 20px;
-  width: 180px;
-  height: 200px;
+  width: 230px;
+  height: 260px;
   border-radius: 7px;
   text-align: center;
-  font-size: 170px;
+  font-size: 220px;
   font-weight: bold;
 }
 @media only screen and (max-width: 1300px) {

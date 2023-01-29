@@ -8,7 +8,14 @@ export default function ThemeSwitch({
   color,
   setColor,
 }) {
-  const styleOne = {
+  const initialStyle = {
+    color: textColor,
+  };
+  const borderTheme = {
+    border: `1px solid ${color}`,
+  };
+
+  const borderButton = {
     border: `1px solid ${color}`,
   };
 
@@ -20,63 +27,64 @@ export default function ThemeSwitch({
     setColor(newColor);
   };
   return (
-    <div className="themeChangeSection" style={styleOne}>
-      <div className="colorSwitch">
-        <button
-          className="colorButton"
-          style={{ backgroundColor: "#13b49f" }}
-          onClick={() => onColorChange("#13b49f")}
-        ></button>
-        <button
-          className="colorButton"
-          style={{ backgroundColor: "#00cc66" }}
-          onClick={() => onColorChange("#00cc66")}
-        ></button>
-        <button
-          className="colorButton"
-          style={{ backgroundColor: "#00cc00" }}
-          onClick={() => onColorChange("#00cc00")}
-        ></button>
-        <button
-          className="colorButton"
-          style={{ backgroundColor: "#00cc99" }}
-          onClick={() => onColorChange("#00cc99")}
-        ></button>
-        <button
-          className="colorButton"
-          style={{ backgroundColor: "#00ffff" }}
-          onClick={() => onColorChange("#00ffff")}
-        ></button>
-        <button
-          className="colorButton"
-          style={{ backgroundColor: "#9933ff" }}
-          onClick={() => onColorChange("#9933ff")}
-        ></button>
-        <button
-          className="colorButton"
-          style={{ backgroundColor: "#ff00ff" }}
-          onClick={() => onColorChange("#ff00ff")}
-        ></button>
-        <button
-          className="colorButton"
-          style={{ backgroundColor: "#ffff00" }}
-          onClick={() => onColorChange("#ffff00")}
-        ></button>
-        <button
-          className="colorButton"
-          style={{ backgroundColor: "#f54500" }}
-          onClick={() => onColorChange("#f54500")}
-        ></button>
-        <button
-          className="colorButton"
-          style={{ backgroundColor: "#0000ff" }}
-          onClick={() => onColorChange("#0000ff")}
-        ></button>
+    <div className="themeContainer" style={initialStyle}>
+      <input type="checkbox" id="click"></input>
+      <div className="arrowButton" style={borderButton}>
+        <label htmlFor="click">⁕</label>
       </div>
-      <div className="themeSwitch">
-        <button className="themeButton" onClick={onThemeChange}>
-          {BGColor === "#f0f8ff" ? <p>🌑</p> : <p>☀️</p>}
-        </button>
+      <div className="themeChangeSection" style={borderTheme}>
+        <div className="colorSwitch">
+          <button
+            className="colorButton"
+            style={{ backgroundColor: "#00cc00" }}
+            onClick={() => onColorChange("#00cc00")}
+          ></button>
+          <button
+            className="colorButton"
+            style={{ backgroundColor: "#13b49f" }}
+            onClick={() => onColorChange("#13b49f")}
+          ></button>
+          <button
+            className="colorButton"
+            style={{ backgroundColor: "#00cc66" }}
+            onClick={() => onColorChange("#00cc66")}
+          ></button>
+          <button
+            className="colorButton"
+            style={{ backgroundColor: "#00ffff" }}
+            onClick={() => onColorChange("#00ffff")}
+          ></button>
+          <button
+            className="colorButton"
+            style={{ backgroundColor: "#9933ff" }}
+            onClick={() => onColorChange("#9933ff")}
+          ></button>
+          <button
+            className="colorButton"
+            style={{ backgroundColor: "#ff00ff" }}
+            onClick={() => onColorChange("#ff00ff")}
+          ></button>
+          <button
+            className="colorButton"
+            style={{ backgroundColor: "#ffff00" }}
+            onClick={() => onColorChange("#ffff00")}
+          ></button>
+          <button
+            className="colorButton"
+            style={{ backgroundColor: "#f54500" }}
+            onClick={() => onColorChange("#f54500")}
+          ></button>
+          <button
+            className="colorButton"
+            style={{ backgroundColor: "#0000ff" }}
+            onClick={() => onColorChange("#0000ff")}
+          ></button>
+        </div>
+        <div className="themeSwitch">
+          <button className="themeButton" onClick={onThemeChange}>
+            {BGColor === "#f0f8ff" ? <p>🌑</p> : <p>☀️</p>}
+          </button>
+        </div>
       </div>
     </div>
   );
