@@ -6,7 +6,11 @@
 .educationContainer {
   width: 80%;
 }
-
+.educationTitle {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
 .educationCardContainer {
   padding-left: 50px;
 }

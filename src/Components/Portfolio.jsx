@@ -12,7 +12,7 @@ const Portfolio = ({ textColor, color }) => {
   return (
     <div id="portfolio" style={initialStyle}>
       <div className="portfolioContainer">
-        <p className="title" style={{ color: color }}>
+        <p className="portfolioTitle" style={{ color: color }}>
           PORTFOLIO
         </p>
         <div className="portfolioDetailContainer">

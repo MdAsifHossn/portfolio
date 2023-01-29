@@ -12,7 +12,7 @@ const Skill = ({ textColor, color }) => {
   return (
     <div id="skills" style={initialStyle}>
       <div className="skillsContainer">
-        <p className="title" style={{ color: color }}>
+        <p className="skillTitle" style={{ color: color }}>
           SKILLS
         </p>
         <div className="skillDetailContainer">

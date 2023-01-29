@@ -9,7 +9,7 @@ const Education = ({ textColor, color }) => {
   return (
     <div id="education" style={initialStyle}>
       <div className="educationContainer">
-        <p className="title" style={{ color: color }}>
+        <p className="educationTitle" style={{ color: color }}>
           EDUCATION
         </p>
         <div className="educationDetailContainer">

@@ -18,7 +18,7 @@ const About = ({ textColor, color, BGColor }) => {
   return (
     <div id="about">
       <div style={initialStyle} className="allContainer">
-        <p className="title" style={{ color: color }}>
+        <p className="aboutTitle" style={{ color: color }}>
           ABOUT ME
         </p>
         <div className="allContent">

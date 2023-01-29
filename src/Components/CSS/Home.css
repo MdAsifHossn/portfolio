@@ -88,6 +88,16 @@
   }
 }
 @media only screen and (max-width: 1020px) {
+  .homeIntroContainer > .nameInfo > h1 {
+    font-size: 40px;
+  }
+  .homeIntroContainer > .nameInfo > p {
+    font-size: 30px;
+  }
+  .homeContact > a {
+    font-size: 18px;
+    padding-bottom: 7px;
+  }
   .cardContainer {
     gap: 20px;
   }
@@ -133,12 +143,6 @@
     margin-top: 80px;
     margin-bottom: 50px;
   }
-  .homeIntroContainer > .nameInfo > h1 {
-    font-size: 40px;
-  }
-  .homeIntroContainer > .nameInfo > p {
-    font-size: 30px;
-  }
   .cardContainer {
     gap: 30px;
   }
@@ -181,7 +185,6 @@
     margin-bottom: 20px;
   }
   .homeContact > a {
-    text-decoration: none;
     font-size: 15px;
     padding-bottom: 7px;
   }
