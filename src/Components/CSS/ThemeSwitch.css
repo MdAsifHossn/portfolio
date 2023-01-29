@@ -68,3 +68,27 @@
   padding: 0px;
   margin: 0px;
 }
+
+@media only screen and (max-width: 850px) {
+  .themeChangeSection {
+    top: 227px;
+    gap: 10px;
+    padding: 10px 0px;
+  }
+  .arrowButton {
+    padding: 0px 12.5px;
+  }
+  .arrowButton > label {
+    font-size: 50px;
+  }
+  .colorSwitch {
+    gap: 8px;
+  }
+  .colorButton {
+    height: 20px;
+    width: 20px;
+  }
+  .themeButton > p {
+    font-size: 28px;
+  }
+}

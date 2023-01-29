@@ -6,7 +6,7 @@ const Skill = ({ textColor, color }) => {
     color: textColor,
   };
   const imageCardStyle = {
-    boxShadow: `${textColor + "80"} 10px 10px 15px`,
+    boxShadow: `${textColor + "80"} 5px 5px 15px`,
   };
 
   return (

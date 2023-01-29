@@ -1,10 +1,7 @@
 #home {
   display: flex;
   justify-content: center;
-
-  flex-wrap: wrap;
 }
-
 .homeIntroContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -17,14 +14,16 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-right: 10px;
 }
 .homeIntroContainer > .nameInfo > h1 {
   font-weight: bold;
+  font-size: 60px;
   margin-top: 0;
   margin-bottom: 35px;
 }
 .homeIntroContainer > .nameInfo > p {
-  font-size: 40px;
+  font-size: 45px;
   font-weight: bold;
   margin-top: 0px;
   margin-bottom: 35px;
@@ -49,13 +48,11 @@
 }
 .AandS {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
 }
 .IandF {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
 }
@@ -69,11 +66,137 @@
 }
 @media only screen and (max-width: 1300px) {
   .homeIntroContainer {
-    width: 78%;
+    width: 75%;
+  }
+  .letterCard {
+    width: 200px;
+    height: 225px;
+    font-size: 195px;
   }
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1130px) {
+  .homeIntroContainer > .nameInfo > h1 {
+    font-size: 55px;
+  }
+  .homeIntroContainer > .nameInfo > p {
+    font-size: 40px;
+  }
+  .letterCard {
+    width: 185px;
+    height: 212px;
+    font-size: 180px;
+  }
+}
+@media only screen and (max-width: 1020px) {
+  .cardContainer {
+    gap: 20px;
+  }
+  .AandS {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .IandF {
+    gap: 25px;
+  }
+  .nameInfo {
+    padding-right: 0px;
+  }
+  .letterCard {
+    width: 180px;
+    height: 205px;
+    font-size: 175px;
+  }
+}
+@media only screen and (max-width: 930px) {
+  #home {
+    padding-top: 30px;
+  }
+  .IandF {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .letterCard {
+    width: 175px;
+    height: 199px;
+    font-size: 170px;
+  }
+}
+@media only screen and (max-width: 850px) {
   .homeIntroContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 60%;
+  }
+  .nameInfo {
+    height: auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+  .homeIntroContainer > .nameInfo > h1 {
+    font-size: 40px;
+  }
+  .homeIntroContainer > .nameInfo > p {
+    font-size: 30px;
+  }
+  .cardContainer {
+    gap: 30px;
+  }
+  .AandS {
+    flex-direction: row;
+    gap: 30px;
+  }
+  .IandF {
+    flex-direction: row;
+    gap: 30px;
+  }
+  .letterCard {
+    width: 185px;
+    height: 212px;
+    font-size: 180px;
+  }
+}
+@media only screen and (max-width: 670px) {
+  .letterCard {
+    width: 175px;
+    height: 199px;
+    font-size: 170px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .homeIntroContainer {
+    width: 85%;
+  }
+  .nameInfo {
+    margin-top: 70px;
+    margin-bottom: 40px;
+  }
+  .homeIntroContainer > .nameInfo > h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .homeIntroContainer > .nameInfo > p {
+    font-size: 23px;
+    margin-bottom: 20px;
+  }
+  .homeContact > a {
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 7px;
+  }
+  .letterCard {
+    width: 125px;
+    height: 150px;
+    font-size: 125px;
+  }
+  .cardContainer {
+    gap: 20px;
+  }
+  .AandS {
+    gap: 20px;
+  }
+  .IandF {
+    gap: 20px;
   }
 }

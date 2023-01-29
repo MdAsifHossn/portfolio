@@ -7,7 +7,7 @@ const Home = ({ textColor, color, BGColor }) => {
   };
   const cardStyle = {
     color: BGColor,
-    boxShadow: `${textColor + "80"} 10px 10px 15px`,
+    boxShadow: `${textColor + "80"} 5px 5px 15px`,
     backgroundColor: color,
   };
   return (
@@ -15,9 +15,7 @@ const Home = ({ textColor, color, BGColor }) => {
       <div className="homeIntroContainer" style={initialStyle}>
         <div className="nameInfo">
           <h1 style={{ color: color }}>MD. ASIF HOSSAIN</h1>
-
           <p>FRONT-END WEB DEVELOPER IN BANGLADESH</p>
-
           <div className="homeContact">
             <a href="#contact" style={initialStyle}>
               ➤ Contact with me

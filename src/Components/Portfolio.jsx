@@ -6,7 +6,7 @@ const Portfolio = ({ textColor, color }) => {
     color: textColor,
   };
   const imageCardStyle = {
-    boxShadow: `${textColor + "80"} 10px 10px 15px`,
+    boxShadow: `${textColor + "80"} 6px 6px 15px`,
   };
 
   return (
