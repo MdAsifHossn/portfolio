@@ -14,22 +14,23 @@ const Contact = ({ textColor, color }) => {
         </p>
         <div className="ContactType">
           <p className="contact">
-            <strong>Name: </strong>Md. Asif Hossain
+            <strong>Name:</strong> Md. Asif Hossain
           </p>
           <p className="contact">
-            <strong>Phone: </strong>+880-1627-949470
+            <strong>Phone:</strong> +880-1627-949470
           </p>
           <p className="contact">
-            <strong>Email: </strong>mdasif.hossain1996@gmail.com
+            <strong>Email:</strong> mdasif.hossain1996@gmail.com
           </p>
           <p className="contact">
-            <strong>Address: </strong>Kazifuri, Mirpur-1, Dhaka, Bangladesh
+            <strong>Address: </strong> Kazifuri, Mirpur-1, Dhaka, Bangladesh
           </p>
           <a
             className="fb"
             href="https://www.facebook.com/mdasif.fb/"
             target="_blank"
             rel="noreferrer"
+            style={{ color: color }}
           >
             Facebook
           </a>

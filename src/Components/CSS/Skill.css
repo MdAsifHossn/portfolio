@@ -13,7 +13,6 @@
 }
 .skillCard {
   box-shadow: rgba(0, 0, 0, 0.3) 10px 10px 15px;
-  flex-direction: column-reverse;
   height: 200px;
   width: 150px;
   padding: 25px 35px;
@@ -29,12 +28,41 @@
   margin: auto;
   padding: 0;
 }
-.skillDetailContainer {
-}
 .skillDetailContainer > p {
   font-size: 30px;
   font-weight: bold;
   text-align: center;
   padding: 0;
   margin: 40px 0px 10px 0px;
+}
+@media only screen and (max-width: 1300px) {
+  .skillsContainer {
+    width: 75%;
+  }
+  .skillTitle {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 1020px) {
+  .skillTitle {
+    font-size: 30px;
+    margin-bottom: 80px;
+  }
+  .skillDetailContainer > p {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .skillsContainer {
+    width: 60%;
+  }
+  .skillTitle {
+    margin-bottom: 50px;
+  }
+  .skillCard {
+    height: 150px;
+    width: 100px;
+    margin: 10px;
+  }
 }

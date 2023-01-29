@@ -67,18 +67,43 @@
     width: 75%;
   }
   .aboutTitle {
-    margin-bottom: 80px;
+    margin-bottom: 40px;
   }
   .allContent {
     grid-template-columns: 2fr 3fr;
   }
 }
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1020px) {
   .aboutTitle {
+    font-size: 30px;
+    margin-bottom: 80px;
   }
   .allContent {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .allContent > .aboutContainer > h1 {
+    margin-top: 60px;
+    font-size: 28px;
+  }
+  .allContent > .aboutContainer > p {
+    font-size: 20px;
+  }
+  .emailContainer > p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .allContainer {
+    width: 60%;
+  }
+  .allContent > .aboutContainer > h1 {
+    margin-top: 40px;
+  }
+  .imageCard {
+    height: 250px;
+    width: 220px;
+    border-radius: 7px;
   }
 }

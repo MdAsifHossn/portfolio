@@ -71,12 +71,12 @@
 
 @media only screen and (max-width: 850px) {
   .themeChangeSection {
-    top: 227px;
+    top: 226px;
     gap: 10px;
     padding: 10px 0px;
   }
   .arrowButton {
-    padding: 0px 12.5px;
+    padding: 0px 12.8px;
   }
   .arrowButton > label {
     font-size: 50px;
