@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./CSS/ThemeSwitch.css";
 
 export default function ThemeSwitch({
@@ -8,15 +9,18 @@ export default function ThemeSwitch({
   color,
   setColor,
 }) {
+  const [checked, setChecked] = useState(true);
   const initialStyle = {
     color: textColor,
   };
   const borderTheme = {
     border: `1px solid ${color}`,
+    backgroundColor: BGColor,
   };
 
   const borderButton = {
     border: `1px solid ${color}`,
+    backgroundColor: BGColor,
   };
 
   const onThemeChange = () => {
@@ -29,8 +33,14 @@ export default function ThemeSwitch({
   return (
     <div className="themeContainer" style={initialStyle}>
       <input type="checkbox" id="click"></input>
-      <div className="arrowButton" style={borderButton}>
-        <label htmlFor="click">⁕</label>
+      <div
+        className="arrowButton"
+        style={borderButton}
+        onClick={() => setChecked(!checked)}
+      >
+        <label htmlFor="click" style={{ color: checked ? textColor : color }}>
+          ⁕
+        </label>
       </div>
       <div className="themeChangeSection" style={borderTheme}>
         <div className="colorSwitch">

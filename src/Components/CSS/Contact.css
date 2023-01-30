@@ -19,8 +19,7 @@
 .contact {
   font-size: 20px;
   margin: 10px;
-  display: flex;
-  flex-wrap: wrap;
+  word-wrap: break-word;
 }
 .fb {
   text-decoration: none;

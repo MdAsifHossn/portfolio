@@ -34,11 +34,8 @@
   font-weight: bold;
   cursor: pointer;
 }
+
 #click:checked ~ .arrowButton {
-  color: #00cc00;
-}
-#click:checked ~ .arrowButton {
-  color: #00cc00;
   border-bottom-left-radius: 0px;
   transition: 0.5s;
 }
