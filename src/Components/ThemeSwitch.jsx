@@ -15,12 +15,12 @@ export default function ThemeSwitch({
   };
   const borderTheme = {
     border: `1px solid ${color}`,
-    backgroundColor: BGColor,
+    // backgroundColor: BGColor,
   };
 
   const borderButton = {
     border: `1px solid ${color}`,
-    backgroundColor: BGColor,
+    // backgroundColor: BGColor,
   };
 
   const onThemeChange = () => {
@@ -46,6 +46,11 @@ export default function ThemeSwitch({
         <div className="colorSwitch">
           <button
             className="colorButton"
+            style={{ backgroundColor: "#f54500" }}
+            onClick={() => onColorChange("#f54500")}
+          ></button>
+          <button
+            className="colorButton"
             style={{ backgroundColor: "#00cc00" }}
             onClick={() => onColorChange("#00cc00")}
           ></button>
@@ -53,16 +58,6 @@ export default function ThemeSwitch({
             className="colorButton"
             style={{ backgroundColor: "#13b49f" }}
             onClick={() => onColorChange("#13b49f")}
-          ></button>
-          <button
-            className="colorButton"
-            style={{ backgroundColor: "#00cc66" }}
-            onClick={() => onColorChange("#00cc66")}
-          ></button>
-          <button
-            className="colorButton"
-            style={{ backgroundColor: "#00ffff" }}
-            onClick={() => onColorChange("#00ffff")}
           ></button>
           <button
             className="colorButton"
@@ -78,11 +73,6 @@ export default function ThemeSwitch({
             className="colorButton"
             style={{ backgroundColor: "#ffff00" }}
             onClick={() => onColorChange("#ffff00")}
-          ></button>
-          <button
-            className="colorButton"
-            style={{ backgroundColor: "#f54500" }}
-            onClick={() => onColorChange("#f54500")}
           ></button>
           <button
             className="colorButton"

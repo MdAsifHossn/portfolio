@@ -58,3 +58,12 @@
     font-size: 18px;
   }
 }
+@media only screen and (max-width: 425px) {
+  .contactContainer {
+    width: 90%;
+  }
+  .fb {
+    font-size: 22px;
+    font-weight: bold;
+  }
+}

@@ -11,7 +11,7 @@
   transition: 0.3s;
 }
 #click:checked ~ .themeChangeSection {
-  right: 1px;
+  right: 2px;
   transition: 0.3s;
 }
 #click {
@@ -20,7 +20,7 @@
 .arrowButton {
   position: fixed;
   top: 165px;
-  right: 1px;
+  right: 2px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -76,6 +76,34 @@
     padding: 0px 10px;
     width: 30px;
     height: 60px;
+  }
+  .arrowButton > label {
+    text-align: center;
+    font-size: 50px;
+  }
+  .colorSwitch {
+    gap: 8px;
+  }
+  .colorButton {
+    height: 20px;
+    width: 20px;
+  }
+  .themeButton > p {
+    font-size: 28px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .themeChangeSection {
+    top: 151px;
+    gap: 10px;
+    width: 30px;
+    padding: 10px 7px;
+  }
+  .arrowButton {
+    top: 100px;
+    padding: 0px 7px;
+    width: 30px;
+    height: 50px;
   }
   .arrowButton > label {
     text-align: center;

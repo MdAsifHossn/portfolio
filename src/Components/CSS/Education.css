@@ -82,3 +82,21 @@
     padding-left: 10px;
   }
 }
+@media only screen and (max-width: 4250px) {
+  .educationContainer {
+    width: 90%;
+  }
+  .educationDetailContainer > p {
+    font-size: 25px;
+    margin-top: 0px;
+  }
+  .educationTitle {
+    margin-bottom: 30px;
+  }
+  .educationDetail {
+    margin-bottom: 30px;
+  }
+  #education {
+    margin-bottom: 0px;
+  }
+}

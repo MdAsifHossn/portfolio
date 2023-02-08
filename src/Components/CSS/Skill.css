@@ -12,6 +12,7 @@
   margin-bottom: 100px;
 }
 .skillCard {
+  font-size: 80px;
   box-shadow: rgba(0, 0, 0, 0.3) 10px 10px 15px;
   height: 200px;
   width: 150px;
@@ -22,17 +23,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.html,
-.css,
-.js,
-.react,
-.node,
-.github,
-.mongo,
-.java,
-.apache {
-  width: 110px;
 }
 .skillCard > p {
   font-size: 20px;
@@ -79,23 +69,50 @@
     margin-bottom: 50px;
   }
   .skillCard {
-    height: 150px;
-    width: 100px;
+    font-size: 60px;
+    padding: 20px 30px;
+    height: 148px;
+    width: 99px;
     margin: 10px;
   }
-  .html,
-  .css,
-  .js,
-  .react,
-  .node,
-  .github,
-  .mongo,
-  .java,
-  .apache {
-    width: 80px;
-  }
+
   .skillCard > p {
-    font-size: 18px;
-    margin: 15px 0 0 0;
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .skillCard {
+    font-size: 50px;
+    padding: 20px 30px;
+    height: 140px;
+    width: 90px;
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .skillsContainer {
+    width: 90%;
+  }
+  .skillTitle {
+    margin-bottom: 25px;
+  }
+  .skillDetailContainer > p {
+    margin-top: 0px;
+    font-size: 25px;
+  }
+  .skillCard {
+    font-size: 40px;
+    padding: 15px 23px;
+    height: 140px;
+    width: 78px;
+    margin: 10px;
+  }
+  .skillCardContainer {
+    margin-bottom: 30px;
+  }
+  #skills {
+    margin: 0px auto;
   }
 }

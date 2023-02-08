@@ -70,3 +70,23 @@
     margin: 12px;
   }
 }
+@media only screen and (max-width: 425px) {
+  .portfolioContainer {
+    width: 90%;
+  }
+  .portfolioTitle {
+    margin-bottom: 25px;
+  }
+  .portfolioDetailContainer > p {
+    font-size: 25px;
+    margin-top: 0px;
+  }
+  .portfolioCard {
+    height: 240px;
+    width: 160px;
+    margin: 10px;
+  }
+  #portfolio {
+    margin-bottom: 50px;
+  }
+}

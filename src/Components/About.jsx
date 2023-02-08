@@ -20,7 +20,7 @@ const About = ({ textColor, color, BGColor }) => {
         </p>
         <div className="allContent">
           <div className="imageContainer">
-            <img src={cover} alt="myPhoto" width="250px" />
+            <img src={cover} alt="myPhoto" />
           </div>
           <div className="aboutContainer">
             <h1 style={{ color: color }}>Hello!</h1>
