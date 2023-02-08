@@ -173,19 +173,19 @@
     width: 90%;
   }
   .nameInfo {
-    margin-bottom: 60px;
+    margin-top: 60px;
+    margin-bottom: 30px;
   }
   .homeIntroContainer > .nameInfo > h1 {
-    font-size: 30px;
-    margin-bottom: 30px;
+    font-size: 28px;
+    margin-bottom: 25px;
   }
   .homeIntroContainer > .nameInfo > p {
-    font-size: 23px;
-    margin-bottom: 30px;
+    font-size: 21px;
+    margin-bottom: 25px;
   }
   .homeContact > a {
-    font-size: 17px;
-    padding-bottom: 7px;
+    font-size: 15px;
   }
   .letterCard {
     width: 130px;

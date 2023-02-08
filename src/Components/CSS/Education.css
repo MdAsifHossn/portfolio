@@ -86,15 +86,26 @@
   .educationContainer {
     width: 90%;
   }
-  .educationDetailContainer > p {
-    font-size: 25px;
-    margin-top: 0px;
-  }
   .educationTitle {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  .educationDetailContainer > p {
+    font-size: 21px;
+    margin-top: 0px;
     margin-bottom: 30px;
   }
   .educationDetail {
     margin-bottom: 30px;
+  }
+  .exam {
+    font-size: 17px;
+    margin: 10px auto;
+  }
+  .result,
+  .year,
+  .academy {
+    font-size: 15px;
   }
   #education {
     margin-bottom: 0px;

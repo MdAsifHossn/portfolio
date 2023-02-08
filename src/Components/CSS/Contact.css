@@ -62,8 +62,14 @@
   .contactContainer {
     width: 90%;
   }
+  .contactTitle {
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+  .contact {
+    font-size: 15px;
+  }
   .fb {
-    font-size: 22px;
-    font-weight: bold;
+    font-size: 21px;
   }
 }

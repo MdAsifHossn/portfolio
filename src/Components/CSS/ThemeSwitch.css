@@ -11,7 +11,7 @@
   transition: 0.3s;
 }
 #click:checked ~ .themeChangeSection {
-  right: 2px;
+  right: 1px;
   transition: 0.3s;
 }
 #click {
@@ -20,7 +20,7 @@
 .arrowButton {
   position: fixed;
   top: 165px;
-  right: 2px;
+  right: 1px;
   display: flex;
   align-items: center;
   justify-content: center;
