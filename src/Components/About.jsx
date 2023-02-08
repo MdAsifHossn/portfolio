@@ -47,7 +47,12 @@ const About = ({ textColor, color, BGColor }) => {
                 <a className="cv" href="#portfolio" style={buttonStyle}>
                   WORKS
                 </a>
-                <a className="cv" href="#education" style={buttonStyle}>
+                <a
+                  className="cv"
+                  target="_blank"
+                  href="https://drive.google.com/drive/u/0/folders/1j4DJInAlCUYxeJ7W0zLfCQjEc8j_p6hU"
+                  style={buttonStyle}
+                >
                   RESUME
                 </a>
               </div>
