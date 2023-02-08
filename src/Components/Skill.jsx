@@ -1,16 +1,17 @@
 import React from "react";
 import "./CSS/Skill.css";
-import htmlImg from "../Logo/html.png";
-import cssImg from "../Logo/css.png";
-import jsImg from "../Logo/js.png";
-import reactImg from "../Logo/react.png";
-import nodeImg from "../Logo/node.png";
-import githubImg from "../Logo/github.png";
-import mongoImg from "../Logo/mongo.png";
-import javaImg from "../Logo/java.png";
-import apacheImg from "../Logo/apache.png";
 
-import { AiFillHtml5 } from "react-icons/ai";
+import {
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiReact,
+  SiNodedotjs,
+  SiGithub,
+  SiMongodb,
+  SiJava,
+  SiApache,
+} from "react-icons/si";
 
 const Skill = ({ textColor, color }) => {
   const initialStyle = {
@@ -30,42 +31,42 @@ const Skill = ({ textColor, color }) => {
           <p style={{ color: color }}>I AM GOOD AT</p>
           <div className="skillCardContainer">
             <div className="skillCard" style={imageCardStyle}>
-              <AiFillHtml5 style={{ color: "#ff3c04", fontSize: "80px" }} />
+              <SiHtml5 style={{ color: "#ff3c04", fontSize: "80px" }} />
               <p>HTML</p>
             </div>
             <div className="skillCard" style={imageCardStyle}>
-              <img className="css" src={cssImg} alt="logo" />
+              <SiCss3 style={{ color: "#2965f1", fontSize: "80px" }} />
               <p>CSS</p>
             </div>
             <div className="skillCard" style={imageCardStyle}>
-              <img className="js" src={jsImg} alt="logo" />
+              <SiJavascript style={{ color: "#ffcc00", fontSize: "80px" }} />
               <p>JavaScript</p>
             </div>
             <div className="skillCard" style={imageCardStyle}>
-              <img className="react" src={reactImg} alt="logo" />
+              <SiReact style={{ color: "#61DBFB", fontSize: "80px" }} />
               <p>React</p>
             </div>
             <div className="skillCard" style={imageCardStyle}>
-              <img className="node" src={nodeImg} alt="logo" />
+              <SiNodedotjs style={{ color: "#3c873a", fontSize: "80px" }} />
               <p>Node.js</p>
             </div>
             <div className="skillCard" style={imageCardStyle}>
-              <img className="github" src={githubImg} alt="logo" />
+              <SiGithub style={{ color: "#171515", fontSize: "80px" }} />
               <p>Github</p>
             </div>
           </div>
           <p style={{ color: color }}>BASIC KNOWLEDGE</p>
           <div className="skillCardContainer">
             <div className="skillCard" style={imageCardStyle}>
-              <img className="mongo" src={mongoImg} alt="logo" />
+              <SiMongodb style={{ color: "#4DB33D", fontSize: "80px" }} />
               <p>MongoDB</p>
             </div>
             <div className="skillCard" style={imageCardStyle}>
-              <img className="java" src={javaImg} alt="logo" />
+              <SiJava style={{ color: "#ff3c04", fontSize: "80px" }} />
               <p>Java</p>
             </div>
             <div className="skillCard" style={imageCardStyle}>
-              <img className="apache" src={apacheImg} alt="logo" />
+              <SiApache style={{ color: "#a22160", fontSize: "80px" }} />
               <p>Apache</p>
             </div>
           </div>
