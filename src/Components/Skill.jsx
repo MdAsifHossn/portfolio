@@ -10,6 +10,8 @@ import mongoImg from "../Logo/mongo.png";
 import javaImg from "../Logo/java.png";
 import apacheImg from "../Logo/apache.png";
 
+import { AiFillHtml5 } from "react-icons/ai";
+
 const Skill = ({ textColor, color }) => {
   const initialStyle = {
     color: textColor,
@@ -28,42 +30,42 @@ const Skill = ({ textColor, color }) => {
           <p style={{ color: color }}>I AM GOOD AT</p>
           <div className="skillCardContainer">
             <div className="skillCard" style={imageCardStyle}>
-              <img src={htmlImg} alt="" width="80px" />
+              <AiFillHtml5 style={{ color: "#ff3c04", fontSize: "80px" }} />
               <p>HTML</p>
             </div>
             <div className="skillCard" style={imageCardStyle}>
-              <img src={cssImg} alt="" width="80px" />
+              <img className="css" src={cssImg} alt="logo" />
               <p>CSS</p>
             </div>
             <div className="skillCard" style={imageCardStyle}>
-              <img src={jsImg} alt="" width="80px" />
+              <img className="js" src={jsImg} alt="logo" />
               <p>JavaScript</p>
             </div>
             <div className="skillCard" style={imageCardStyle}>
-              <img src={reactImg} alt="" width="110px" />
+              <img className="react" src={reactImg} alt="logo" />
               <p>React</p>
             </div>
             <div className="skillCard" style={imageCardStyle}>
-              <img src={nodeImg} alt="" width="80px" />
+              <img className="node" src={nodeImg} alt="logo" />
               <p>Node.js</p>
             </div>
             <div className="skillCard" style={imageCardStyle}>
-              <img src={githubImg} alt="" width="80px" />
+              <img className="github" src={githubImg} alt="logo" />
               <p>Github</p>
             </div>
           </div>
           <p style={{ color: color }}>BASIC KNOWLEDGE</p>
           <div className="skillCardContainer">
             <div className="skillCard" style={imageCardStyle}>
-              <img src={mongoImg} alt="" width="80px" />
+              <img className="mongo" src={mongoImg} alt="logo" />
               <p>MongoDB</p>
             </div>
             <div className="skillCard" style={imageCardStyle}>
-              <img src={javaImg} alt="" width="80px" />
+              <img className="java" src={javaImg} alt="logo" />
               <p>Java</p>
             </div>
             <div className="skillCard" style={imageCardStyle}>
-              <img src={apacheImg} alt="" width="80px" />
+              <img className="apache" src={apacheImg} alt="logo" />
               <p>Apache</p>
             </div>
           </div>
