@@ -73,9 +73,12 @@
     padding: 10px 0px;
   }
   .arrowButton {
-    padding: 0px 12.7px;
+    padding: 0px 10px;
+    width: 30px;
+    height: 60px;
   }
   .arrowButton > label {
+    text-align: center;
     font-size: 50px;
   }
   .colorSwitch {
