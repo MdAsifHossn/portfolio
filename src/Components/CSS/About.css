@@ -108,7 +108,8 @@
     width: 90%;
   }
   .aboutTitle {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    margin-top: 10px;
     font-size: 28px;
   }
   .imageContainer > img {
@@ -120,6 +121,7 @@
   .allContent > .aboutContainer > h1 {
     font-size: 21px;
     margin-bottom: 0px;
+    margin-top: 30px;
   }
   .allContent > .aboutContainer > p {
     font-size: 15px;

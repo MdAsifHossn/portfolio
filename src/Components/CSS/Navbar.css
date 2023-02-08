@@ -31,12 +31,12 @@
   text-decoration: none;
   font-size: 20px;
   padding: 3px 10px;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   transition: 0.2s;
 }
 .navContainer > .navItems > li > a:hover {
   color: red;
-  border: 1.5px solid red;
+  border: 1px solid red;
   padding: 3px 10px;
   border-radius: 4px;
   transition: 0.2s;
@@ -90,8 +90,8 @@
     margin-right: 30px;
   }
   .navItems {
-    width: 240px;
-    right: -260px;
+    width: 200px;
+    right: -210px;
   }
   .navContainer > .navItems > li > a {
     font-size: 16px;
