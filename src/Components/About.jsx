@@ -1,5 +1,6 @@
 import React from "react";
 import "./CSS/About.css";
+import cover from "./Pic/passport.png";
 
 const About = ({ textColor, color, BGColor }) => {
   const initialStyle = {
@@ -11,10 +12,6 @@ const About = ({ textColor, color, BGColor }) => {
     backgroundColor: color,
   };
 
-  const imageCardStyle = {
-    boxShadow: `${textColor + "80"} 10px 10px 15px`,
-  };
-
   return (
     <div id="about">
       <div style={initialStyle} className="allContainer">
@@ -23,7 +20,8 @@ const About = ({ textColor, color, BGColor }) => {
         </p>
         <div className="allContent">
           <div className="imageContainer">
-            <div className="imageCard" style={imageCardStyle}></div>
+            {/* <img src={cover} alt="photo" width="250px" /> */}
+            <input type="image" src={cover} alt="photo" width="230px" />
           </div>
           <div className="aboutContainer">
             <h1 style={{ color: color }}>Hello!</h1>
@@ -49,8 +47,9 @@ const About = ({ textColor, color, BGColor }) => {
                 </a>
                 <a
                   className="cv"
-                  target="_blank"
                   href="https://drive.google.com/drive/u/0/folders/1j4DJInAlCUYxeJ7W0zLfCQjEc8j_p6hU"
+                  target="_blank"
+                  rel="noreferrer"
                   style={buttonStyle}
                 >
                   RESUME

@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 import "./CSS/Navbar.css";
 
 const Navbar = ({ textColor, color, BGColor }) => {
@@ -8,13 +8,16 @@ const Navbar = ({ textColor, color, BGColor }) => {
   const backgroundColor = {
     backgroundColor: BGColor,
   };
+  const [checked, setChecked] = useState(true);
   return (
     <div style={initialStyle}>
       <nav className="navContainer" style={backgroundColor}>
         <div className="navLogo">ASIF</div>
-        <input type={"checkbox"} id={"check"}></input>
-        <div className="navButton">
-          <label htmlFor="check">≡</label>
+        <input type="checkbox" id="check"></input>
+        <div className="navButton" onClick={() => setChecked(!checked)}>
+          <label htmlFor="check" style={{ color: checked ? textColor : color }}>
+            ≡
+          </label>
         </div>
         <ul className="navItems" style={backgroundColor}>
           <li>

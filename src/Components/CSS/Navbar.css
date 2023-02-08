@@ -57,9 +57,7 @@
     margin-right: 30px;
     margin-left: auto;
   }
-  #check:checked ~ .navButton {
-    color: #00cc00;
-  }
+
   .navItems {
     padding: 0px;
     flex-direction: column;
