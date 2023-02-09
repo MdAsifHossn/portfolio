@@ -25,10 +25,18 @@ const About = ({ textColor, color, BGColor }) => {
           <div className="aboutContainer">
             <h1 style={{ color: color }}>Hello!</h1>
             <p>
-              I am Md. Asif Hossain, a front-end web developer from Bangladesh.
-              I have deep understanding of the technologies and the processes
-              required for realising a successful web project from A to Z. I'm
-              ready and eager to work to create something simple and unique.
+              I am Md. Asif Hossain, a dedicated and creative web developer with
+              a passion for designing and building websites that provide an
+              exceptional user experience. With expertise in a variety of
+              programming languages and a strong understanding of the latest web
+              technologies, I am able to bring ideas to life and create
+              innovative solutions for my clients. I am a problem-solver at
+              heart and enjoy the challenge of finding the best technical
+              solutions to meet the needs of my clients. I am a team player who
+              enjoys collaborating with designers, administrators, and other
+              professionals to deliver high-quality results. I am constantly
+              learning and expanding my skills, staying up-to-date with the
+              latest developments in web development.
             </p>
             <div className="emailContainer">
               <p>
