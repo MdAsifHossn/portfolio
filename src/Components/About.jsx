@@ -54,7 +54,7 @@ const About = ({ textColor, color, BGColor }) => {
                 </a>
                 <a
                   className="cv"
-                  href="https://drive.google.com/file/d/1R4RxwGeUSaWmUStRQYijokCklycDcFOQ/view?usp=share_link"
+                  href="https://drive.google.com/file/d/1dR2JS80L24j47Bb48MKOQSCzJ0T570II/view?usp=drive_link"
                   target="_blank"
                   rel="noreferrer"
                   style={buttonStyle}
