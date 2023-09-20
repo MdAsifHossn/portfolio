@@ -10,33 +10,33 @@ import Education from "./Components/Education";
 import Contact from "./Components/Contact";
 
 function App() {
-  const [textColor, setTextColor] = useState("#222222");
-  const [BGColor, setBGColor] = useState("#f0f8ff");
-  const [color, setColor] = useState("#ff0c00");
+	const [textColor, setTextColor] = useState("#222222");
+	const [BGColor, setBGColor] = useState("#f0f8ff");
+	const [color, setColor] = useState("#f54500");
 
-  useEffect(() => {
-    document.body.style.backgroundColor = BGColor;
-  }, [BGColor]);
+	useEffect(() => {
+		document.body.style.backgroundColor = BGColor;
+	}, [BGColor]);
 
-  return (
-    <div>
-      <ThemeSwitch
-        textColor={textColor}
-        setTextColor={setTextColor}
-        BGColor={BGColor}
-        setBGColor={setBGColor}
-        color={color}
-        setColor={setColor}
-      />
-      <Navbar textColor={textColor} color={color} BGColor={BGColor} />
-      <Home textColor={textColor} color={color} BGColor={BGColor} />
-      <About textColor={textColor} color={color} BGColor={BGColor} />
-      <Skill textColor={textColor} color={color} BGColor={BGColor} />
-      <Portfolio textColor={textColor} color={color} BGColor={BGColor} />
-      <Education textColor={textColor} color={color} BGColor={BGColor} />
-      <Contact textColor={textColor} color={color} BGColor={BGColor} />
-    </div>
-  );
+	return (
+		<div>
+			<ThemeSwitch
+				textColor={textColor}
+				setTextColor={setTextColor}
+				BGColor={BGColor}
+				setBGColor={setBGColor}
+				color={color}
+				setColor={setColor}
+			/>
+			<Navbar textColor={textColor} color={color} BGColor={BGColor} />
+			<Home textColor={textColor} color={color} BGColor={BGColor} />
+			<About textColor={textColor} color={color} BGColor={BGColor} />
+			<Skill textColor={textColor} color={color} BGColor={BGColor} />
+			<Portfolio textColor={textColor} color={color} BGColor={BGColor} />
+			<Education textColor={textColor} color={color} BGColor={BGColor} />
+			<Contact textColor={textColor} color={color} BGColor={BGColor} />
+		</div>
+	);
 }
 
 export default App;

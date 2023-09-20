@@ -1,146 +1,142 @@
 #about {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 120px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 120px;
 }
 .allContainer {
-  width: 80%;
+	width: 80%;
 }
 .aboutTitle {
-  font-size: 35px;
-  font-weight: bold;
-  margin-bottom: 100px;
+	font-size: 35px;
+	font-weight: bold;
+	margin-bottom: 100px;
 }
 .allContent {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  align-items: center;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	align-items: center;
 }
 .imageContainer {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 .imageContainer > img {
-  width: 300px;
+	width: 300px;
 }
 .aboutContainer {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding-left: 15px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding-left: 15px;
 }
 .allContent > .aboutContainer > h1 {
-  margin-bottom: 0px;
+	margin-bottom: 0px;
 }
 .allContent > .aboutContainer > p {
-  font-size: 22px;
-  text-align: justify;
-  margin-top: 20px;
-  margin-bottom: 20px;
+	font-size: 22px;
+	text-align: justify;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 .emailContainer > p {
-  font-size: 22px;
-  margin: 0px 0px 15px 0px;
+	font-size: 22px;
+	margin: 0px 0px 15px 0px;
 }
 
 .cv {
-  text-decoration: none;
-  padding: 10px 50px;
-  border-radius: 4px;
-  font-weight: bold;
-  margin-right: 20px;
-}
-
-.workButton:hover {
-  cursor: pointer;
+	text-decoration: none;
+	padding: 10px 50px;
+	border-radius: 4px;
+	font-weight: bold;
+	margin-right: 20px;
 }
 .resumeBtn:hover {
-  cursor: pointer;
+	cursor: pointer;
 }
 .aboutBtnContaier {
-  margin-top: 50px;
+	margin-top: 50px;
 }
 @media only screen and (max-width: 1300px) {
-  .allContainer {
-    width: 75%;
-  }
-  .aboutTitle {
-    margin-bottom: 40px;
-  }
-  .allContent {
-    grid-template-columns: 2fr 3fr;
-  }
+	.allContainer {
+		width: 75%;
+	}
+	.aboutTitle {
+		margin-bottom: 40px;
+	}
+	.allContent {
+		grid-template-columns: 2fr 3fr;
+	}
 }
 @media only screen and (max-width: 1020px) {
-  .aboutTitle {
-    font-size: 30px;
-    margin-bottom: 80px;
-  }
-  .allContent {
-    display: flex;
-    flex-direction: column;
-  }
-  .allContent > .aboutContainer > h1 {
-    margin-top: 60px;
-    font-size: 28px;
-  }
-  .allContent > .aboutContainer > p {
-    font-size: 20px;
-  }
-  .emailContainer > p {
-    font-size: 20px;
-  }
+	.aboutTitle {
+		font-size: 30px;
+		margin-bottom: 80px;
+	}
+	.allContent {
+		display: flex;
+		flex-direction: column;
+	}
+	.allContent > .aboutContainer > h1 {
+		margin-top: 60px;
+		font-size: 28px;
+	}
+	.allContent > .aboutContainer > p {
+		font-size: 20px;
+	}
+	.emailContainer > p {
+		font-size: 20px;
+	}
 }
 
 @media only screen and (max-width: 850px) {
-  .allContainer {
-    width: 60%;
-  }
-  .allContent > .aboutContainer > h1 {
-    margin-top: 40px;
-  }
-  .imageContainer > img {
-    width: 250px;
-  }
+	.allContainer {
+		width: 60%;
+	}
+	.allContent > .aboutContainer > h1 {
+		margin-top: 40px;
+	}
+	.imageContainer > img {
+		width: 250px;
+	}
 }
 @media only screen and (max-width: 425px) {
-  .allContainer {
-    width: 90%;
-  }
-  .aboutTitle {
-    margin-bottom: 30px;
-    margin-top: 10px;
-    font-size: 28px;
-  }
-  .imageContainer > img {
-    width: 170px;
-  }
-  .aboutContainer {
-    padding-left: 0px;
-  }
-  .allContent > .aboutContainer > h1 {
-    font-size: 21px;
-    margin-bottom: 0px;
-    margin-top: 30px;
-  }
-  .allContent > .aboutContainer > p {
-    font-size: 15px;
-    margin: 10px 0px;
-  }
-  .emailContainer > p {
-    font-size: 15px;
-    margin-bottom: 10px;
-  }
-  .aboutBtnContaier {
-    margin-top: 30px;
-  }
-  .cv {
-    padding: 10px 35px;
-    font-size: 15px;
-  }
-  #about {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 60px;
-  }
+	.allContainer {
+		width: 90%;
+	}
+	.aboutTitle {
+		margin-bottom: 30px;
+		margin-top: 10px;
+		font-size: 28px;
+	}
+	.imageContainer > img {
+		width: 170px;
+	}
+	.aboutContainer {
+		padding-left: 0px;
+	}
+	.allContent > .aboutContainer > h1 {
+		font-size: 21px;
+		margin-bottom: 0px;
+		margin-top: 30px;
+	}
+	.allContent > .aboutContainer > p {
+		font-size: 15px;
+		margin: 10px 0px;
+	}
+	.emailContainer > p {
+		font-size: 15px;
+		margin-bottom: 10px;
+	}
+	.aboutBtnContaier {
+		margin-top: 30px;
+	}
+	.cv {
+		padding: 10px 35px;
+		font-size: 15px;
+	}
+	#about {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 60px;
+	}
 }
