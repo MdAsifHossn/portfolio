@@ -38,9 +38,26 @@
 	display: flex;
 	gap: 10px;
 }
+.li-icon {
+	color: #126bc4;
+}
+.git-icon {
+	color: #000;
+}
+.fb-icon {
+	color: #3b579d;
+}
+.you-icon {
+	color: #ff0808;
+}
+.ins-icon {
+	color: #fb5316;
+}
+.tw-icon {
+	color: #249ef0;
+}
 .homeIcon {
 	font-size: 30px;
-	color: #f54500;
 }
 .homeIcon:hover {
 	transform: scale(1.2);

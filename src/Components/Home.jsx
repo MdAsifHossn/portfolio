@@ -27,22 +27,22 @@ const Home = ({ textColor, color, BGColor }) => {
 					<div className="homeContact">
 						<div className="homeIconContainer">
 							<a href="#">
-								<AiFillLinkedin className="homeIcon" />
+								<AiFillLinkedin className="homeIcon li-icon" />
 							</a>
 							<a href="#">
-								<AiFillGithub className="homeIcon" />
+								<AiFillGithub className="homeIcon git-icon" />
 							</a>
 							<a href="#">
-								<AiFillFacebook className="homeIcon" />
+								<AiFillFacebook className="homeIcon fb-icon" />
 							</a>
 							<a href="#">
-								<AiFillYoutube className="homeIcon" />
+								<AiFillYoutube className="homeIcon you-icon" />
 							</a>
 							<a href="#">
-								<AiFillInstagram className="homeIcon" />
+								<AiFillInstagram className="homeIcon ins-icon" />
 							</a>
 							<a href="#">
-								<AiFillTwitterSquare className="homeIcon" />
+								<AiFillTwitterSquare className="homeIcon tw-icon" />
 							</a>
 						</div>
 						<a href="#contact" style={{ color: color }}>
