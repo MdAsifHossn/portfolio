@@ -26,19 +26,19 @@ const Home = ({ textColor, color, BGColor }) => {
 					<p>A FULL-STACK WEB DEVELOPER IN BANGLADESH</p>
 					<div className="homeContact">
 						<div className="homeIconContainer">
-							<a href="#">
+							<a href="https://www.linkedin.com/in/mdasifin/" target="_blank">
 								<AiFillLinkedin className="homeIcon li-icon" />
 							</a>
-							<a href="#">
+							<a href="https://github.com/MdAsifHossn" target="_blank">
 								<AiFillGithub className="homeIcon git-icon" />
 							</a>
-							<a href="#">
+							<a href="https://www.facebook.com/mdasif.fb/" target="_blank">
 								<AiFillFacebook className="homeIcon fb-icon" />
 							</a>
-							<a href="#">
+							<a href="https://www.youtube.com/@mdasif.96" target="_blank">
 								<AiFillYoutube className="homeIcon you-icon" />
 							</a>
-							<a href="#">
+							<a href="https://www.instagram.com/md.asif1996/" target="_blank">
 								<AiFillInstagram className="homeIcon ins-icon" />
 							</a>
 							<a href="#">

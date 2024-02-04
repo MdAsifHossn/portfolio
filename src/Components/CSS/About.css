@@ -42,20 +42,23 @@
 	font-size: 22px;
 	margin: 0px 0px 15px 0px;
 }
-
+.aboutBtnContaier {
+	margin-top: 50px;
+}
 .cv {
 	text-decoration: none;
 	padding: 10px 50px;
 	border-radius: 4px;
 	font-weight: bold;
 	margin-right: 20px;
-}
-.resumeBtn:hover {
 	cursor: pointer;
 }
-.aboutBtnContaier {
-	margin-top: 50px;
+.cv:hover {
+	color: black !important;
+	background-color: aliceblue !important;
+	border: 0.1rem solid blue;
 }
+
 @media only screen and (max-width: 1300px) {
 	.allContainer {
 		width: 75%;
@@ -133,6 +136,9 @@
 	.cv {
 		padding: 10px 35px;
 		font-size: 15px;
+	}
+	.cv:hover {
+		border: 1px solid blue;
 	}
 	#about {
 		display: flex;
