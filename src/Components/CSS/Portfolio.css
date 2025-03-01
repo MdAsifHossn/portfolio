@@ -56,9 +56,12 @@
 		font-size: 28px;
 	}
 	.portfolioCard {
-		height: 300px;
-		width: 205px;
+		height: fit-content;
+		width: fit-content;
 		margin: 15px;
+	}
+	.imageStyle {
+		width: 250px;
 	}
 }
 @media only screen and (max-width: 850px) {
@@ -69,9 +72,12 @@
 		margin-bottom: 50px;
 	}
 	.portfolioCard {
-		height: 280px;
-		width: 195px;
+		height: fit-content;
+		width: fit-content;
 		margin: 12px;
+	}
+	.imageStyle {
+		width: 280px;
 	}
 }
 @media only screen and (max-width: 425px) {
@@ -86,11 +92,6 @@
 	.portfolioDetailContainer > p {
 		font-size: 21px;
 		margin-top: 0px;
-	}
-	.portfolioCard {
-		height: 220px;
-		width: 150px;
-		margin: 10px;
 	}
 	#portfolio {
 		margin-bottom: 50px;
