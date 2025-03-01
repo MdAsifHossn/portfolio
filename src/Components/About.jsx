@@ -54,11 +54,10 @@ const About = ({ textColor, color, BGColor }) => {
 								</a>
 								<a
 									className="cv"
-									href="https://drive.google.com/file/d/1YT4EY8gijlw6BmQbFJRJApbSyBPBTeow/view?usp=drive_link"
+									href="https://drive.google.com/file/d/1h-lhBfqNtu0CP4HoCe3PTpY1lcIMePGX/view?usp=drive_link"
 									target="_blank"
 									rel="noreferrer"
 									style={buttonStyle}
-									// usp=sharing
 								>
 									RESUME
 								</a>

@@ -8,10 +8,15 @@ import {
 	SiCss3,
 	SiJavascript,
 	SiReact,
-	SiNodedotjs,
+	// SiNodedotjs,
 	SiGithub,
 	SiMongodb,
 	SiApache,
+	SiNextdotjs,
+	SiNuxtdotjs,
+	SiLaravel,
+	SiTypescript,
+	SiMysql,
 } from "react-icons/si";
 
 const Skill = ({ textColor, color }) => {
@@ -44,16 +49,28 @@ const Skill = ({ textColor, color }) => {
 							<p>JavaScript</p>
 						</div>
 						<div className="skillCard" style={imageCardStyle}>
+							<SiTypescript />
+							<p>JavaScript</p>
+						</div>
+						<div className="skillCard" style={imageCardStyle}>
 							<SiReact style={{ color: "#61DBFB" }} />
 							<p>React</p>
 						</div>
-						<div className="skillCard" style={imageCardStyle}>
+						{/* <div className="skillCard" style={imageCardStyle}>
 							<SiNodedotjs style={{ color: "#3c873a" }} />
 							<p>Node.js</p>
-						</div>
+						</div> */}
 						<div className="skillCard" style={imageCardStyle}>
 							<SiGithub style={{ color: "#171515" }} />
 							<p>Github</p>
+						</div>
+						<div className="skillCard" style={imageCardStyle}>
+							<SiNextdotjs />
+							<p>Next.js</p>
+						</div>
+						<div className="skillCard" style={imageCardStyle}>
+							<SiNuxtdotjs />
+							<p>Nuxt.js</p>
 						</div>
 					</div>
 					<p style={{ color: color }}>BASIC KNOWLEDGE</p>
@@ -63,12 +80,20 @@ const Skill = ({ textColor, color }) => {
 							<p>MongoDB</p>
 						</div>
 						<div className="skillCard" style={imageCardStyle}>
+							<SiMysql />
+							<p>MySQL</p>
+						</div>
+						<div className="skillCard" style={imageCardStyle}>
 							<FaJava style={{ color: "#ff3c04" }} />
 							<p>Java</p>
 						</div>
 						<div className="skillCard" style={imageCardStyle}>
 							<SiApache style={{ color: "#a22160" }} />
 							<p>Apache</p>
+						</div>
+						<div className="skillCard" style={imageCardStyle}>
+							<SiLaravel />
+							<p>Laravel</p>
 						</div>
 					</div>
 				</div>
